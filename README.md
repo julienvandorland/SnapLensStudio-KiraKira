@@ -1,5 +1,5 @@
 # SnapLensStudio-KiraKira
-A project file with all the assets to create the famous Kira Kira Snapchat Lens using Lens Studio.
+A project file with all the assets you need to create the famous Kira Kira Snapchat Lens using Lens Studio.
 
 If you want to make this effect from scratch, here is the video tutorial. Just click on the thumbnail.
 
