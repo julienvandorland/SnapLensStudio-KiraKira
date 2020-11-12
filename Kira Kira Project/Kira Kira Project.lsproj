@@ -1,9 +1,9 @@
 {
     "lens_id": "",
-    "document_id": "FP2CoHoPVof0I5l7OVy2",
+    "document_id": "VsN2H13L8CDcFv69pAFf",
     "original_document_id": "FP2CoHoPVof0I5l7OVy2",
-    "version": "24",
-    "lastChanged": "1601320741991",
+    "version": "26",
+    "lastChanged": "1605211061718",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -20,8 +20,8 @@
         "lastSavedWith": {
             "type": "Public",
             "major": "3",
-            "minor": "0",
-            "patch": "1",
+            "minor": "2",
+            "patch": "0",
             "build": "0"
         }
     },
@@ -40,13 +40,6 @@
                     ],
                     [
                         "Kira Kira"
-                    ],
-                    [
-                        "Textures"
-                    ],
-                    [
-                        "Textures",
-                        "white"
                     ]
                 ]
             ]
@@ -57,7 +50,6 @@
             ]
         },
         "MetaInfoUIComponent": {
-            "video_preview_path": "preview.mp4",
             "hints": "",
             "lens": "Untitled",
             "applicability": "3",
@@ -84,6 +76,14 @@
                 "front_preview_id": "bundle:Preview\/Videos\/Idle Person 3.webm",
                 "front_preview_is_favorite": "false",
                 "spectacles_preview_id": "bundle:Preview\/Videos\/Climbing\/Climbing.webm",
+                "spectacles_preview_is_favorite": "false"
+            },
+            "preview_ie_project_config": {
+                "back_preview_id": "",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "",
                 "spectacles_preview_is_favorite": "false"
             }
         },
@@ -132,14 +132,6 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "14",
-                    "uid": "1597338839786077:856789",
-                    "name": "Files\/File12.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "15",
                     "uid": "1597338841679915:857041",
                     "name": "Files\/File14.png",
@@ -151,6 +143,22 @@
                     "resId": "16",
                     "uid": "1597338854257468:858327",
                     "name": "Files\/File16",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "17",
+                    "uid": "1605211010168137:1646",
+                    "name": "Files\/File18",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "18",
+                    "uid": "1605211010298867:1673",
+                    "name": "Files\/File20.png",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -249,14 +257,6 @@
                     "v": "Files\/File11.lsmat"
                 },
                 {
-                    "k": "12",
-                    "v": "Files\/File12.png"
-                },
-                {
-                    "k": "13",
-                    "v": "Files\/File13.png"
-                },
-                {
                     "k": "14",
                     "v": "Files\/File14.png"
                 },
@@ -271,6 +271,22 @@
                 {
                     "k": "17",
                     "v": "Files\/File17.lsmat"
+                },
+                {
+                    "k": "18",
+                    "v": "Files\/File18"
+                },
+                {
+                    "k": "19",
+                    "v": "Files\/File19.lsmat"
+                },
+                {
+                    "k": "20",
+                    "v": "Files\/File20.png"
+                },
+                {
+                    "k": "21",
+                    "v": "Files\/File21.png"
                 }
             ]
         },
@@ -288,14 +304,6 @@
                         "v": "Grid-Texture.png"
                     },
                     {
-                        "k": "1070",
-                        "v": "Textures"
-                    },
-                    {
-                        "k": "1071",
-                        "v": "Textures\/white.png"
-                    },
-                    {
                         "k": "1072",
                         "v": "Edge Detection.lsmat"
                     },
@@ -306,6 +314,14 @@
                     {
                         "k": "1074",
                         "v": "Kira Kira.lsmat"
+                    },
+                    {
+                        "k": "1075",
+                        "v": "Rainbow Edge.lsmat"
+                    },
+                    {
+                        "k": "1076",
+                        "v": "white.png"
                     }
                 ],
                 "hashes": [
@@ -331,7 +347,7 @@
                     },
                     {
                         "k": "1072",
-                        "v": "5f55c9c656c2d592f32ed98361ec7151"
+                        "v": "a127e0c38b26948c03b56d758f420790"
                     },
                     {
                         "k": "1073",
@@ -339,15 +355,15 @@
                     },
                     {
                         "k": "1074",
-                        "v": "681da2ed7cc4805752371c89c179b3d3"
+                        "v": "9b2b5409df0767c0d6eb5ade274139a2"
                     },
                     {
                         "k": "1075",
-                        "v": "8b544e254d2f28938404c93908c21cb3"
+                        "v": "a949dd489b9f31040a68e67f08dc5566"
                     },
                     {
                         "k": "1076",
-                        "v": "3d258d50c067e8aadfb0a7a8ce9fe89e"
+                        "v": "0c8dcfed2f50bb81ac5276a14967c005"
                     },
                     {
                         "k": "1077",
@@ -357,66 +373,58 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-09-28T21:16:13",
+                        "lastModified": "2020-11-12T20:56:54",
                         "name": "Public",
-                        "hash": "6ff03e5191cccd0446529798ca2017e5",
+                        "hash": "6f53c427b2d7967a6d409ad7b7181a20",
                         "children": [
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-08-11T00:02:45",
+                                "lastModified": "2020-11-12T20:51:18",
                                 "name": "Bling Texture.png",
                                 "hash": "6ff79f85320874670e7f405d14e497a9",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-09-28T21:16:12",
+                                "lastModified": "2020-11-12T20:56:54",
                                 "name": "Edge Detection.lsmat",
-                                "hash": "5f55c9c656c2d592f32ed98361ec7151",
+                                "hash": "a127e0c38b26948c03b56d758f420790",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-07-10T09:03:00",
+                                "lastModified": "2020-11-12T20:56:50",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-08-13T17:55:30",
+                                "lastModified": "2020-11-12T20:51:18",
                                 "name": "Grid-Texture.png",
                                 "hash": "cb5bdbc991ccb5d36af28e439abfd310",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-08-14T20:44:36",
+                                "lastModified": "2020-11-12T20:51:18",
                                 "name": "Kira Kira.lsmat",
-                                "hash": "dc09c5ad4cbf4e47b64c1c3918c68692",
+                                "hash": "681da2ed7cc4805752371c89c179b3d3",
                                 "children": ""
                             },
                             {
-                                "isFolder": "true",
-                                "lastModified": "2020-08-13T22:48:46",
-                                "name": "Textures",
-                                "hash": "6507c3cb5745a68eb0fa565cf851c447",
-                                "children": [
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2020-08-13T19:13:59",
-                                        "name": "folder.lock",
-                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2020-08-13T19:13:59",
-                                        "name": "white.png",
-                                        "hash": "0c8dcfed2f50bb81ac5276a14967c005",
-                                        "children": ""
-                                    }
-                                ]
+                                "isFolder": "false",
+                                "lastModified": "2020-11-12T20:56:51",
+                                "name": "Rainbow Edge.lsmat",
+                                "hash": "a949dd489b9f31040a68e67f08dc5566",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-11-12T20:51:18",
+                                "name": "white.png",
+                                "hash": "0c8dcfed2f50bb81ac5276a14967c005",
+                                "children": ""
                             }
                         ]
                     }
@@ -476,34 +484,6 @@
                         "additional": ""
                     },
                     {
-                        "name": "Textures",
-                        "type": "0",
-                        "subtype": "-1",
-                        "resourceId": "-1",
-                        "dependency": "0",
-                        "uid": "-1:-1",
-                        "fileId": "18446744073709551615",
-                        "originalId": "18446744073709551615",
-                        "publicId": "1070",
-                        "source": "",
-                        "additional": "",
-                        "resources": [
-                            {
-                                "name": "white",
-                                "type": "1",
-                                "subtype": "9",
-                                "resourceId": "14",
-                                "dependency": "0",
-                                "uid": "1597338839786077:856789",
-                                "fileId": "12",
-                                "originalId": "13",
-                                "publicId": "1071",
-                                "source": "C:\/Users\/jvand\/AppData\/Local\/Temp\/Lens Studio-ODMloy\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
-                                "additional": ""
-                            }
-                        ]
-                    },
-                    {
                         "name": "Edge Detection",
                         "type": "2",
                         "subtype": "0",
@@ -541,6 +521,32 @@
                         "publicId": "1074",
                         "source": "",
                         "additional": ""
+                    },
+                    {
+                        "name": "Rainbow Edge",
+                        "type": "2",
+                        "subtype": "0",
+                        "resourceId": "17",
+                        "dependency": "0",
+                        "uid": "1605211010168137:1646",
+                        "fileId": "18",
+                        "originalId": "19",
+                        "publicId": "1075",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "white",
+                        "type": "1",
+                        "subtype": "9",
+                        "resourceId": "18",
+                        "dependency": "0",
+                        "uid": "1605211010298867:1673",
+                        "fileId": "20",
+                        "originalId": "21",
+                        "publicId": "1076",
+                        "source": "C:\/Users\/jvand\/AppData\/Local\/Temp\/Lens Studio-ghKeXH\/Public\/white.png",
+                        "additional": ""
                     }
                 ]
             }
@@ -575,7 +581,10 @@
             "22": "",
             "23": "",
             "24": "",
-            "25": ""
+            "25": "",
+            "26": "",
+            "27": "",
+            "28": ""
         },
         "ObjectPrefabController": {
             "state": {
