@@ -1,14 +1,15 @@
 {
     "lens_id": "",
-    "document_id": "VsN2H13L8CDcFv69pAFf",
+    "document_id": "t0Z4WP2Imdz4ahvOxFCw",
     "original_document_id": "FP2CoHoPVof0I5l7OVy2",
-    "version": "26",
-    "lastChanged": "1605211061718",
+    "version": "27",
+    "lastChanged": "1614610478810",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
     "isReadOnly": "false",
     "isAutoSaved": "false",
+    "api_level": "public",
     "studioVersion": {
         "createdWith": {
             "type": "Public",
@@ -20,7 +21,7 @@
         "lastSavedWith": {
             "type": "Public",
             "major": "3",
-            "minor": "2",
+            "minor": "4",
             "patch": "0",
             "build": "0"
         }
@@ -30,23 +31,23 @@
             "collapsedList": [
                 [
                     [
-                        "Bling Texture"
-                    ],
-                    [
                         "Edge Detection"
                     ],
                     [
-                        "Grid-Texture"
+                        "Sparkle_Texture_[EDIT_ME]"
                     ],
                     [
-                        "Kira Kira"
+                        "Sparkles_[EDIT_ME]"
                     ]
                 ]
             ]
         },
         "SceneTreeUiComponent": {
             "collapsedList": [
-                ""
+                [
+                    "1612996565523706:524024",
+                    "1612996565803284:524613"
+                ]
             ]
         },
         "MetaInfoUIComponent": {
@@ -58,7 +59,7 @@
         "PreviewUiComponent": {
             "preview_descriptor": {
                 "is_capture": "0",
-                "camera_type": "1"
+                "camera_type": "2"
             },
             "show_snap_ui": "true",
             "show_sponsored_ui": "false",
@@ -71,19 +72,19 @@
                 "spectacles_preview_is_favorite": "false"
             },
             "preview_videos_project_config": {
-                "back_preview_id": "local:C:\/Users\/jvand\/Desktop\/Augmented Reality\/Lens Studio (Snapchat)\/AA Main Projects\/Assets\/Video Previews\/vid 1.mp4",
+                "back_preview_id": "bundle:Preview\/Videos\/Patio.webm",
                 "back_preview_is_favorite": "false",
-                "front_preview_id": "bundle:Preview\/Videos\/Idle Person 3.webm",
+                "front_preview_id": "bundle:Preview\/Videos\/Open Mouth Person 5.webm",
                 "front_preview_is_favorite": "false",
                 "spectacles_preview_id": "bundle:Preview\/Videos\/Climbing\/Climbing.webm",
                 "spectacles_preview_is_favorite": "false"
             },
             "preview_ie_project_config": {
-                "back_preview_id": "",
+                "back_preview_id": "bundle:Preview\/InteractiveEnvironments\/Home",
                 "back_preview_is_favorite": "false",
-                "front_preview_id": "",
+                "front_preview_id": "bundle:Preview\/InteractiveEnvironments\/Home",
                 "front_preview_is_favorite": "false",
-                "spectacles_preview_id": "",
+                "spectacles_preview_id": "bundle:Preview\/InteractiveEnvironments\/Home",
                 "spectacles_preview_is_favorite": "false"
             }
         },
@@ -93,7 +94,10 @@
             ]
         },
         "Material::UiComponent": {
-            "active_graph_asset": "1597338854257468:858327"
+            "active_graph_asset": "1613066623351048:7737"
+        },
+        "Script::UiComponent": {
+            "active_graph_asset": "-1:-1"
         }
     },
     "model": {
@@ -116,22 +120,6 @@
                     "flags": "0"
                 },
                 {
-                    "resId": "12",
-                    "uid": "1597338836742538:856411",
-                    "name": "Files\/File8.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "13",
-                    "uid": "1597338839658465:856746",
-                    "name": "Files\/File10",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "15",
                     "uid": "1597338841679915:857041",
                     "name": "Files\/File14.png",
@@ -148,17 +136,9 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "17",
-                    "uid": "1605211010168137:1646",
-                    "name": "Files\/File18",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "18",
-                    "uid": "1605211010298867:1673",
-                    "name": "Files\/File20.png",
+                    "resId": "19",
+                    "uid": "1613066623351048:7737",
+                    "name": "Files\/File24",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -180,9 +160,23 @@
                 "ScreenTransform": {
                     "uidData": [
                         {
+                            "k": "1597338875317737:860615",
+                            "v": {
+                                "isBasicMode": "false",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
                             "k": "1597338875363294:860753",
                             "v": {
-                                "isBasicMode": "true",
+                                "isBasicMode": "false",
                                 "basicModeSetup": {
                                     "fixWidth": "false",
                                     "fixHeight": "false",
@@ -221,7 +215,7 @@
             }
         },
         "LayerComponent": {
-            "nextLayerId": "2",
+            "nextLayerId": "3",
             "showOrthographicLayer": "true",
             "layersInfo": [
                 {
@@ -241,22 +235,6 @@
         "IFileManager": {
             "pathes": [
                 {
-                    "k": "8",
-                    "v": "Files\/File8.png"
-                },
-                {
-                    "k": "9",
-                    "v": "Files\/File9.png"
-                },
-                {
-                    "k": "10",
-                    "v": "Files\/File10"
-                },
-                {
-                    "k": "11",
-                    "v": "Files\/File11.lsmat"
-                },
-                {
                     "k": "14",
                     "v": "Files\/File14.png"
                 },
@@ -273,20 +251,16 @@
                     "v": "Files\/File17.lsmat"
                 },
                 {
-                    "k": "18",
-                    "v": "Files\/File18"
+                    "k": "23",
+                    "v": "Files\/File23.png"
                 },
                 {
-                    "k": "19",
-                    "v": "Files\/File19.lsmat"
+                    "k": "24",
+                    "v": "Files\/File24"
                 },
                 {
-                    "k": "20",
-                    "v": "Files\/File20.png"
-                },
-                {
-                    "k": "21",
-                    "v": "Files\/File21.png"
+                    "k": "25",
+                    "v": "Files\/File25.lsmat"
                 }
             ]
         },
@@ -300,28 +274,16 @@
             "public": {
                 "pathes": [
                     {
-                        "k": "1069",
-                        "v": "Grid-Texture.png"
-                    },
-                    {
-                        "k": "1072",
-                        "v": "Edge Detection.lsmat"
-                    },
-                    {
                         "k": "1073",
-                        "v": "Bling Texture.png"
+                        "v": "Sparkle_Texture_[EDIT_ME].png"
                     },
                     {
                         "k": "1074",
-                        "v": "Kira Kira.lsmat"
+                        "v": "Sparkles_[EDIT_ME].lsmat"
                     },
                     {
-                        "k": "1075",
-                        "v": "Rainbow Edge.lsmat"
-                    },
-                    {
-                        "k": "1076",
-                        "v": "white.png"
+                        "k": "1077",
+                        "v": "Edge Detection.lsmat"
                     }
                 ],
                 "hashes": [
@@ -347,7 +309,7 @@
                     },
                     {
                         "k": "1072",
-                        "v": "a127e0c38b26948c03b56d758f420790"
+                        "v": "32b51879fa71f2ccbba640fc99f498b6"
                     },
                     {
                         "k": "1073",
@@ -355,7 +317,7 @@
                     },
                     {
                         "k": "1074",
-                        "v": "9b2b5409df0767c0d6eb5ade274139a2"
+                        "v": "edfc4a5ea323cee80f7a37f60dbf191b"
                     },
                     {
                         "k": "1075",
@@ -367,63 +329,342 @@
                     },
                     {
                         "k": "1077",
-                        "v": "c636d1257492b3290660c3f32f1ed48d"
+                        "v": "e8b3c8cf4ee2a2163e15c9bbd8dfde9a"
+                    },
+                    {
+                        "k": "1078",
+                        "v": "5e0d4e8943a55c3d023fc61e069ba591"
+                    },
+                    {
+                        "k": "1079",
+                        "v": "9d10374c9ce0ba6582e4c0af34369fbf"
+                    },
+                    {
+                        "k": "1080",
+                        "v": "dc1965c1bb7e12f4327e6934500b063e"
+                    },
+                    {
+                        "k": "1081",
+                        "v": "3655abab9b768791662aff68313b768b"
+                    },
+                    {
+                        "k": "1082",
+                        "v": "34c238dc5731a0f5876f4d14f6a0e8f2"
+                    },
+                    {
+                        "k": "1083",
+                        "v": "c9d3a1842afa379d2e72e03c5e0feda8"
+                    },
+                    {
+                        "k": "1084",
+                        "v": "00a58707d93a1b5ae305aa57feadd6e9"
+                    },
+                    {
+                        "k": "1085",
+                        "v": "8e46e71d35c85c570af1baf5afa4ccb4"
+                    },
+                    {
+                        "k": "1086",
+                        "v": "494eedf4f72b5b66abb42e77205506db"
+                    },
+                    {
+                        "k": "8758",
+                        "v": "e5db9d5b19168d2008aa4b1cf1fd13b1"
+                    },
+                    {
+                        "k": "8759",
+                        "v": "9fca9559dff2087af92f6c7c345fb0af"
+                    },
+                    {
+                        "k": "8760",
+                        "v": "db1633dd326bc8f976dd02c2fdb5bbf4"
+                    },
+                    {
+                        "k": "8761",
+                        "v": "b89e3f7e5bb9e99c64ac1d2ce692bf29"
+                    },
+                    {
+                        "k": "8762",
+                        "v": "7c7653600093a2c804702ef45a2c188a"
+                    },
+                    {
+                        "k": "8763",
+                        "v": "f8e4cbb0fbfa3d4139c98bed9e23ec3f"
+                    },
+                    {
+                        "k": "8765",
+                        "v": "cb227cae25f08b1eb6956339486b5f7b"
+                    },
+                    {
+                        "k": "8766",
+                        "v": "4c94fe9a543a43e8aa2f10efc3c31867"
+                    },
+                    {
+                        "k": "8767",
+                        "v": "1987dfec5b53836cae47c4a678217167"
+                    },
+                    {
+                        "k": "8770",
+                        "v": "3c5250f945ec90db99e7962d2fc45ffd"
+                    },
+                    {
+                        "k": "8771",
+                        "v": "a6f99b1bf073be827aa8bd8d0423a567"
+                    },
+                    {
+                        "k": "8772",
+                        "v": "444e5dddefb049011236c6f097915e4c"
+                    },
+                    {
+                        "k": "8773",
+                        "v": "2e4c9c3ade7dfaba840c138a8b228acf"
+                    },
+                    {
+                        "k": "8774",
+                        "v": "a766ad9db5a33bcbae41ac93fc485ee2"
+                    },
+                    {
+                        "k": "8775",
+                        "v": "4f7330e79e60a0df1213b0f3944c89f4"
+                    },
+                    {
+                        "k": "8776",
+                        "v": "d01d08d72afead8eb7d6c1ce93b86f35"
+                    },
+                    {
+                        "k": "8779",
+                        "v": "dd1023cb1834443d980f1e0b6ff67f46"
+                    },
+                    {
+                        "k": "8780",
+                        "v": "2376b4a2956f2cf3ca3d88f363b8eb3e"
+                    },
+                    {
+                        "k": "8781",
+                        "v": "9cd7e28515f5d9c531b6d7514189ad26"
+                    },
+                    {
+                        "k": "8783",
+                        "v": "fa8b3aff588bf85dd3aa4f79ed1343a2"
+                    },
+                    {
+                        "k": "8784",
+                        "v": "a1b6cdb0d9b65eb36107a40b26009d89"
+                    },
+                    {
+                        "k": "8785",
+                        "v": "452393a1322caf2465cf0fd80362de52"
+                    },
+                    {
+                        "k": "8786",
+                        "v": "ffe89eacfc799f78575ba489370cc0d3"
+                    },
+                    {
+                        "k": "8787",
+                        "v": "1306a770d4aa1fd926e20ace45454d62"
+                    },
+                    {
+                        "k": "8788",
+                        "v": "e6acdb6c47bafa027c2e89bfbdaf736f"
+                    },
+                    {
+                        "k": "8789",
+                        "v": "416afbe4db331d69bceeced8ac39a46e"
+                    },
+                    {
+                        "k": "8790",
+                        "v": "aa1599fc32f22af7d8bbd848ca07831f"
+                    },
+                    {
+                        "k": "8791",
+                        "v": "b506869d6b371cb20a3d0ac38118fef8"
+                    },
+                    {
+                        "k": "8792",
+                        "v": "c8dbda5c08f99b29be24d4e270348ffe"
+                    },
+                    {
+                        "k": "8793",
+                        "v": "009410da5825ef52b373eb587a58fbc6"
+                    },
+                    {
+                        "k": "8795",
+                        "v": "5563a3bd5055224d5e5667b44ab5ff17"
+                    },
+                    {
+                        "k": "8796",
+                        "v": "f369b08ca5ad535431c9b8c099a9edbe"
+                    },
+                    {
+                        "k": "8797",
+                        "v": "2b047608291e921e646c4cc997af0dbd"
+                    },
+                    {
+                        "k": "8798",
+                        "v": "05902e34c3438b4430c9255fcf942cb0"
+                    },
+                    {
+                        "k": "8799",
+                        "v": "0e8625c9e5b128a12c708a0547b03eec"
+                    },
+                    {
+                        "k": "8800",
+                        "v": "7c9c5d0385361284252fef4ed50433d9"
+                    },
+                    {
+                        "k": "8801",
+                        "v": "780b954e6725b471ced13a9195889c9a"
+                    },
+                    {
+                        "k": "8803",
+                        "v": "1bb050e16d2d88add0e4d0597c37af10"
+                    },
+                    {
+                        "k": "8804",
+                        "v": "3eeb383110cc9d6abd6d1d2224fedc73"
+                    },
+                    {
+                        "k": "8805",
+                        "v": "445258de89ae54e8837bc5d67038a252"
+                    },
+                    {
+                        "k": "8807",
+                        "v": "9b938c295897c81daf79f027fbcbb796"
+                    },
+                    {
+                        "k": "8808",
+                        "v": "2e68b188996e5b1708eb017faa40fbb0"
+                    },
+                    {
+                        "k": "8809",
+                        "v": "8d9560fad32594866245c9a3e62fd0fa"
+                    },
+                    {
+                        "k": "8811",
+                        "v": "4c09b7bd28278c5e93a18642734ccfb9"
+                    },
+                    {
+                        "k": "8812",
+                        "v": "4ff047921e915c50b1882e210cd06afe"
+                    },
+                    {
+                        "k": "8813",
+                        "v": "7a05e127902a5a6f328a8df659c6e60a"
+                    },
+                    {
+                        "k": "8815",
+                        "v": "29ed708f469a47d74fb2476dd891a7bc"
+                    },
+                    {
+                        "k": "8816",
+                        "v": "23ed09b6fbcd68bc32079ad529e9c0f6"
+                    },
+                    {
+                        "k": "8817",
+                        "v": "fa50785134c0f9a6d6f1c57c85042281"
+                    },
+                    {
+                        "k": "8818",
+                        "v": "70cb533ca3d8346a11331af66efc894c"
+                    },
+                    {
+                        "k": "8819",
+                        "v": "b0a261685c5e6245c8ae22f27f4c903c"
+                    },
+                    {
+                        "k": "8820",
+                        "v": "f125e4c087a310b902c4fedc9e2b2890"
+                    },
+                    {
+                        "k": "8822",
+                        "v": "c8336e6d636a1399f7156c1bb3746bd7"
+                    },
+                    {
+                        "k": "8823",
+                        "v": "9fac0f9ab9b03da7c3d3fbd3c57a469c"
+                    },
+                    {
+                        "k": "8824",
+                        "v": "33bc132e3167fcec897bf96dd37f2cc1"
+                    },
+                    {
+                        "k": "8825",
+                        "v": "6669c0b081144ff1d06ea2479f6f8896"
+                    },
+                    {
+                        "k": "8826",
+                        "v": "b067dc389da3b21ca6e8941c58e74694"
+                    },
+                    {
+                        "k": "8827",
+                        "v": "c2a8888a81d82a7e8d8d360336b0096a"
+                    },
+                    {
+                        "k": "8830",
+                        "v": "0f22bac28f4bb7f9303722acb5d035e0"
+                    },
+                    {
+                        "k": "8831",
+                        "v": "0484abd87ee78b2745eb9563b19fd6a2"
+                    },
+                    {
+                        "k": "8832",
+                        "v": "607a3347d4b06e5c8c7d03119d0fc06c"
+                    },
+                    {
+                        "k": "8834",
+                        "v": "e142cad7fcd5da88ccef321803996fe6"
+                    },
+                    {
+                        "k": "8835",
+                        "v": "0dc1dc1d068eb8452ababe9ddd8ccf71"
+                    },
+                    {
+                        "k": "8836",
+                        "v": "9d2e26a89c0dc242050def9fd8ecb760"
+                    },
+                    {
+                        "k": "8839",
+                        "v": "54b5e21104a4a7f86b3d510596fdc27e"
+                    },
+                    {
+                        "k": "8841",
+                        "v": "bff8e4b051e4dcaf40c858b21e52b956"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-11-12T20:56:54",
+                        "lastModified": "2021-03-01T15:52:07",
                         "name": "Public",
-                        "hash": "6f53c427b2d7967a6d409ad7b7181a20",
+                        "hash": "bde08c79a72d3803a633a6fcff2eb0d5",
                         "children": [
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-11-12T20:51:18",
-                                "name": "Bling Texture.png",
-                                "hash": "6ff79f85320874670e7f405d14e497a9",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2020-11-12T20:56:54",
+                                "lastModified": "2021-02-16T22:55:52",
                                 "name": "Edge Detection.lsmat",
-                                "hash": "a127e0c38b26948c03b56d758f420790",
+                                "hash": "2be7324e7a0b88b6d3bdf86bb7f7fcb1",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-11-12T20:56:50",
+                                "lastModified": "2020-11-12T20:58:57",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-11-12T20:51:18",
-                                "name": "Grid-Texture.png",
-                                "hash": "cb5bdbc991ccb5d36af28e439abfd310",
+                                "lastModified": "2021-02-16T22:55:52",
+                                "name": "Sparkles_[EDIT_ME].lsmat",
+                                "hash": "73fd50ea67a0a71b2974a3805b6dd198",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-11-12T20:51:18",
-                                "name": "Kira Kira.lsmat",
-                                "hash": "681da2ed7cc4805752371c89c179b3d3",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2020-11-12T20:56:51",
-                                "name": "Rainbow Edge.lsmat",
-                                "hash": "a949dd489b9f31040a68e67f08dc5566",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2020-11-12T20:51:18",
-                                "name": "white.png",
-                                "hash": "0c8dcfed2f50bb81ac5276a14967c005",
+                                "lastModified": "2020-11-12T20:58:57",
+                                "name": "Sparkle_Texture_[EDIT_ME].png",
+                                "hash": "6ff79f85320874670e7f405d14e497a9",
                                 "children": ""
                             }
                         ]
@@ -455,7 +696,11 @@
                         "originalId": "18446744073709551615",
                         "publicId": "18446744073709551615",
                         "source": "",
-                        "additional": ""
+                        "additional": {
+                            "resourceInfoExportKey": {
+                                "RenderTargetRole": "1"
+                            }
+                        }
                     },
                     {
                         "name": "Device Camera Texture",
@@ -471,46 +716,7 @@
                         "additional": ""
                     },
                     {
-                        "name": "Grid-Texture",
-                        "type": "1",
-                        "subtype": "9",
-                        "resourceId": "12",
-                        "dependency": "0",
-                        "uid": "1597338836742538:856411",
-                        "fileId": "8",
-                        "originalId": "9",
-                        "publicId": "1069",
-                        "source": "D:\/Tutorial\/Kira Kira Tutorial\/Kira Kira Bling\/Public\/Grid-Texture.png",
-                        "additional": ""
-                    },
-                    {
-                        "name": "Edge Detection",
-                        "type": "2",
-                        "subtype": "0",
-                        "resourceId": "13",
-                        "dependency": "0",
-                        "uid": "1597338839658465:856746",
-                        "fileId": "10",
-                        "originalId": "11",
-                        "publicId": "1072",
-                        "source": "",
-                        "additional": ""
-                    },
-                    {
-                        "name": "Bling Texture",
-                        "type": "1",
-                        "subtype": "9",
-                        "resourceId": "15",
-                        "dependency": "0",
-                        "uid": "1597338841679915:857041",
-                        "fileId": "14",
-                        "originalId": "15",
-                        "publicId": "1073",
-                        "source": "D:\/Tutorial\/Kira Kira Tutorial\/Kira Kira Bling\/Public\/Bling Texture.png",
-                        "additional": ""
-                    },
-                    {
-                        "name": "Kira Kira",
+                        "name": "Sparkles_[EDIT_ME]",
                         "type": "2",
                         "subtype": "1",
                         "resourceId": "16",
@@ -523,29 +729,29 @@
                         "additional": ""
                     },
                     {
-                        "name": "Rainbow Edge",
+                        "name": "Edge Detection",
                         "type": "2",
-                        "subtype": "0",
-                        "resourceId": "17",
+                        "subtype": "1",
+                        "resourceId": "19",
                         "dependency": "0",
-                        "uid": "1605211010168137:1646",
-                        "fileId": "18",
-                        "originalId": "19",
-                        "publicId": "1075",
+                        "uid": "1613066623351048:7737",
+                        "fileId": "24",
+                        "originalId": "25",
+                        "publicId": "1077",
                         "source": "",
                         "additional": ""
                     },
                     {
-                        "name": "white",
+                        "name": "Sparkle_Texture_[EDIT_ME]",
                         "type": "1",
                         "subtype": "9",
-                        "resourceId": "18",
+                        "resourceId": "15",
                         "dependency": "0",
-                        "uid": "1605211010298867:1673",
-                        "fileId": "20",
-                        "originalId": "21",
-                        "publicId": "1076",
-                        "source": "C:\/Users\/jvand\/AppData\/Local\/Temp\/Lens Studio-ghKeXH\/Public\/white.png",
+                        "uid": "1597338841679915:857041",
+                        "fileId": "14",
+                        "originalId": "15",
+                        "publicId": "1073",
+                        "source": "D:\/Tutorial\/Kira Kira Tutorial\/Kira Kira Bling\/Public\/Bling Texture.png",
                         "additional": ""
                     }
                 ]
@@ -553,8 +759,13 @@
         },
         "InspectorController": {
             "selection": {
-                "objects": [
-                    "1597338875363093:860752"
+                "resources": [
+                    {
+                        "uid": "1613066623351048:7737",
+                        "path_list": [
+                            "Edge Detection"
+                        ]
+                    }
                 ]
             }
         },
@@ -584,13 +795,40 @@
             "25": "",
             "26": "",
             "27": "",
-            "28": ""
+            "28": "",
+            "29": ""
         },
         "ObjectPrefabController": {
             "state": {
                 "objectToInfo": ""
             },
             "importInfo": ""
+        },
+        "Compression::IController": {
+            "compression_info": [
+                {
+                    "k": "1597338841679915:857041",
+                    "v": {
+                        "infos": {
+                            "originalSize": "22759",
+                            "compressedSize": "22759",
+                            "originalRAM": "1000000",
+                            "compressedRAM": "1000000",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "false",
+                                "level": "0",
+                                "type": "0"
+                            }
+                        },
+                        "uncompressed_file": "23",
+                        "compressed_files": ""
+                    }
+                }
+            ]
+        },
+        "AssetLibController": {
+            "itemUidToID": ""
         }
     }
 }
